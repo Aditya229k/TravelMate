@@ -1,0 +1,36 @@
+.home-section {
+  height: 100vh; /* Set the height of the home section */
+  background-color: #8aaed2; /* Optional background color */
+  padding-top: 1px; /* For better spacing from Navbar */
+  margin: 0; /* Ensure no margin */
+  width: 100%; /* Ensure the section spans the full width */
+  overflow: hidden; /* Prevent any overflow */
+}
+
+.carousel {
+  width: 100vw; /* Ensure the carousel spans the full width of the screen */
+  height: 100%; /* Full height of the container */
+  overflow: hidden; /* Prevent images from overflowing */
+}
+
+.carousel-inner {
+  width: 100%; /* Ensure inner container spans the full width */
+  height: 100%; /* Ensure inner container spans the full height */
+}
+
+.carousel-item {
+  width: 100vw; /* Ensure each carousel item spans the full width of the screen */
+  height: 100%; /* Ensure each carousel item spans the full height */
+}
+
+.carousel-img {
+  width: 100vw; /* Ensure the image spans the full width of the screen */
+  height: 100%; /* Ensure the image spans the full height */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  display: block; /* Prevent any extra spacing below the image */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Ensure control icons are visible against the image */
+}

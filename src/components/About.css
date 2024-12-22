@@ -1,0 +1,29 @@
+.about-section {
+  height: 100vh; /* Occupies 60% of the viewport height */
+  background-color: #f5f5f5; /* Light background color for contrast */
+  padding: 20px;
+  border-top: 2px solid #ddd; /* Separator from previous section */
+}
+
+.about-card {
+  width: 75%; /* Occupies 75% of the screen width */
+  max-width: 900px; /* Maximum width for larger screens */
+  height: 100%;
+  overflow-y: auto; /* Enables scrolling if content overflows */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}

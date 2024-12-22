@@ -1,0 +1,30 @@
+.footer {
+  background-color: #121212; /* Dark background for footer */
+  color: #ffffff; /* White text for footer */
+  padding: 10px 20px; /* Spacing inside footer */
+  display: flex; /* Align items side-by-side */
+  justify-content: space-between; /* Space out text and icons */
+  align-items: center; /* Vertically center items */
+  position: relative; /* Ensure no overlap issues */
+  z-index: 10; /* Bring footer to the foreground */
+}
+
+.footer-text {
+  font-size: 14px; /* Small text size for copyright */
+}
+
+.footer-icons {
+  display: flex; /* Horizontal alignment for icons */
+  gap: 15px; /* Space between icons */
+}
+
+.icon-link {
+  color: #87b775; /* Icon default color */
+  font-size: 20px; /* Icon size */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.icon-link:hover {
+  color: #0dcaf0; /* Light blue color on hover */
+}

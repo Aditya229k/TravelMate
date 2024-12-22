@@ -1,0 +1,41 @@
+.contact-us-section {
+  height: 100vh; /* Occupies 70% of the viewport height */
+  background-color: #e9f7ff; /* Light blue background for contrast */
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #ddd; /* Separator from previous section */
+}
+
+.contact-card {
+  width: 50%; /* Card takes 50% of the width */
+  max-width: 600px; /* Maximum width for larger screens */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #555;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
